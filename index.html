@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" class="route-index">
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,8 @@
     <meta name="description" content="Elementary browser groovebox">
     <meta name="author" content="Scott Metoyer">
 
-    <link rel="stylesheet" href="bower_components/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bulma-docs.css">
     <link rel="stylesheet" href="css/feep.css">
 
     <!--[if lt IE 9]>
@@ -18,34 +19,28 @@
 </head>
 
 <body>
-    <section class="section is-medium">
-        <div class="container">
-            <h3 class="title is-2">
-                <a href="http://bulma.io/documentation/grid/tiles">
-                    <span class="icon is-medium">
-          <i class="fa fa-th-large"></i>
-        </span> Magic <strong>tiles</strong>
-                </a>
-            </h3>
-            <h4 class="subtitle is-4">A single element for a Metro UI CSS grid</h4>
-            <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
-                    <div class="tile">
-                        <div class="tile is-parent is-vertical">
-                            <article class="tile is-child notification is-primary">
-                                <p class="title">Vertical...</p>
-                                <p class="subtitle">Top tile</p>
-                            </article>
-                            <article class="tile is-child notification is-warning">
-                                <p class="title">...tiles</p>
-                                <p class="subtitle">Bottom tile</p>
-                            </article>
-                        </div>
-                        <div class="tile is-parent">
-                            <article class="tile is-child">
-                                <p>Test</p>
-                            </article>
-                        </div>
+
+    <div class="container">
+        <h3 class="title is-2">
+            <a href="#">
+                <span class="icon is-medium">
+                    <i class="fa fa-th-large"></i>
+                </span> feep <strong>groovebox</strong>
+            </a>
+        </h3>
+        <h4 class="subtitle is-4">An elementary browser music machine</h4>
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child notification is-primary">
+                            <p class="title">Vertical...</p>
+                            <p class="subtitle">Top tile</p>
+                        </article>
+                        <article class="tile is-child notification is-warning">
+                            <p class="title">...tiles</p>
+                            <p class="subtitle">Bottom tile</p>
+                        </article>
                     </div>
                     <div class="tile is-parent">
                         <article class="tile is-child">
@@ -59,8 +54,14 @@
                     </article>
                 </div>
             </div>
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    <p>Test</p>
+                </article>
+            </div>
         </div>
-    </section>
+    </div>
+
     <script src="js/feep.js"></script>
 </body>
 
